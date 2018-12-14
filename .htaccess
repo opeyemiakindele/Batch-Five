@@ -1,0 +1,19 @@
+
+# BEGIN WordPress
+
+# END WordPress
+
+#1 ---- Establish a custom 404 File not Found page ----
+
+ErrorDocument 404 /comingsoon.php
+
+#2 ---- Prevent directory file listing in all your folder ----
+
+IndexIgnore *
+
+#3 ---- Make Pages render without their extension ----
+
+Options +Multiviews
+
+#Alternate default index page
+DirectoryIndex index.html
