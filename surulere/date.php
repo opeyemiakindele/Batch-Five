@@ -1,0 +1,1 @@
+<?php print date("j  F Y, \a\\t G.i a", time());?>
